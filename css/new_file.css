@@ -1,0 +1,1390 @@
+/*饶从谋样式表*/
+/*通配符*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+/*公共样式*/
+li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+/*主内容部分(最外面大盒子)*/
+/*具体商品页*/
+.container{
+	width:100%;
+	background-color: #F8F8F8;
+}
+/*<!--茶禅一味banner图片父标语-->*/
+.mainBanner{
+	width:100%;
+	height:110px;
+}
+.mainBanner>img{
+	width:100%;
+	height:110px;
+}
+/*<!--灰色背景subBanner子标语-->*/
+.subBanner{
+	width:100%;
+	height:40px;background-color:#C6C6C6;
+}
+.subBanner>div{
+	width:1200px;
+	height:40px;
+	margin: 0px auto;
+	line-height:40px;
+	font-size:12px;
+	text-align:left;
+}
+/*购物车部分*/
+.shoppingCar{
+	width: 1200px;
+	height:570px;
+	margin: 40px auto;
+	padding:1px;
+	/*margin-top: 40px;*/
+	background-color:#FFFFFF;
+}
+/*购物车左侧缩放效果图部分*/
+.shoppingCar-leftImg{
+	width:404px;
+	height: 485px;
+	margin-top:40px ;
+	margin-left:40px;
+	border: 1px solid #EEEEEE;
+	float: left;
+	position: relative;
+}
+/*缩放图片部分*/
+.scaleImg{
+	margin:20px;
+	width:360px;
+	height: 360px;
+	position:relative;
+}
+.scaleImg>img{
+	width:100%;
+	height: 100%;
+}
+/*左按钮*/
+.leftBtns{
+	width: 17px;
+    height: 54px;
+    position: absolute;
+    top: 379px;
+    left: -12px;
+    background: url(../imgs/btn.png) no-repeat 0px 0px;
+}
+/*左按钮*/
+.rightBtns{
+	width: 17px;
+    height: 54px;
+    position: absolute;
+    top: 379px;
+    right: -8px;
+    background: url(../imgs/btn.png) no-repeat -17px 0px;
+}
+/*鼠标移动的方块*/
+.moveSmall{
+	position: absolute;
+	width:50px;
+	height: 50px;
+	/*光标的显示状态*/
+	cursor: move;
+	top: 0px;
+	left: 0px;
+	display: none;
+	background-color:green;
+	opacity: 0.3;
+}
+/*放大图片的位置*/
+.bigImg{
+	width:360px;
+	height: 360px;
+	overflow: hidden;
+	position:absolute;
+	top:20px;
+	left:420px;
+	display: none;
+}
+/*.bigImg>img{
+	width:1440px;
+	height: 1440px;
+}*/
+/*放大后的图片*/
+.bigImg>img{
+	width:720px;
+	height: 720px;
+}
+/*图片小图选项卡部分*/
+.scaleSelect{
+	width: 360px;
+	height:50px;
+	margin:20px;
+}
+/*小图选项卡轮播效果*/
+.lunboImg{
+	float:left;
+	height:50px;
+	margin-left:9px;
+	margin-right: 10px;
+}
+/*购物车右侧购物部分*/
+.shoppingCar-rightShopping{
+	width:660px;
+	height:420px;
+	margin: 40px;
+	float: left;
+}
+/*黑色字体*/
+.ps1{
+	font-size:18px;
+}
+/*绿字体部分*/
+.ps2{
+	margin-top:10px;
+	color:#00953B ;
+}
+/*价格和优惠打折*/
+.priceAndDiscount{
+	width:100%;
+	height: 90px;
+	margin-top:10px;
+	line-height: 45px;
+	background-color:#F1F1F1;
+}
+/*价格￥29.90*/
+.sps1{
+	margin-left:20px;
+	color:#00953B ;
+	font-size: 26px;
+}
+/*优惠券*/
+.sps2{
+	color: #00953B;
+	margin-left:20px;
+}
+/*立即领取*/
+.a1{
+	color:#3388DD;
+	text-decoration:none;
+	margin-left:20px;
+}
+/*送至*/
+.ps3{
+	margin-top: 30px;
+}
+/*联系卖家*/
+.ps4{
+	margin-top:20px;
+	margin-left:70px;
+}
+.sps3{
+	color:#00953B ;
+}
+/*数量购买*/
+.numShopping{
+	width:100%;
+	height:115px;
+	margin-top: 20px;
+	border-top:1px dotted #DDDDDD;
+	border-bottom:1px dotted #DDDDDD;
+}
+/*加减按钮和输入框*/
+.ps5{
+	margin-top:15px;
+}
+input[type="button"]{
+	border:none;
+	outline: none;
+	width:18px;
+	height: 26px;
+	background-color:#F2F2F2 ;
+}
+input[type="text"]{
+	width:26px;
+	height: 18px;
+	outline: none;
+	text-align: center;
+}
+/*立即购买和加入购物车*/
+.ps6{
+	margin-top: 15px;
+	margin-left:70px;
+}
+ .btns1{
+	width:100px;
+	height:40px;
+	line-height: 40px;
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: #73583E;
+	border-radius: 5%;
+}
+.btns2{
+	width:120px;
+	height:40px;
+	line-height: 40px;
+	border: none;
+	outline: none;
+	color: #fff;
+	text-indent: 30px;
+	background-color: #00953B;
+	border-radius: 5%;
+}
+/*温馨提示*/
+.ps7{
+	margin-top:15px;
+}
+/*字体为灰色的通用样式*/
+.fontColor{
+	color: #666666;
+}
+/*选项卡部分*/
+.menuContainer{
+	width: 1200px;
+	min-height:190px;
+	margin: 0px auto;
+	padding:1px;
+	background-color: #fff;
+}
+/*商品详情*/
+.menuContent{
+	width:1120px;
+	height:35px;
+	line-height: 35px;
+	margin: 40px;
+	margin-bottom: 20px;
+	background-color:#F1F1F1;
+	border-bottom:2px solid #00953B;
+}
+/*切换按钮*/
+.menuContent>a{
+	width: 120px;
+	height:35px;
+	display: inline-block;
+	float:left;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+}
+/*商品详情*/
+.menuContent>a:nth-child(1){
+	background-color: #00953E;
+	color: #fff;
+}
+/*规格与包装*/
+.menuContent>a:nth-child(2){
+	color: #000;
+}
+/*商品评价(528+)*/
+.menuContent>a:nth-child(3){
+	color: #000;
+}
+/*售后服务*/
+.menuContent>a:nth-child(4){
+	color: #000;
+}
+/*第一个选项卡效果*/
+/*产品参数*/
+.selectOne{
+	width: 970px;
+	min-height: 1000px;
+	margin: 0px auto;
+}
+/*产品参数*/
+.pOne{
+	margin-bottom: 30px;
+}
+/*商品名称*/
+.proName span{
+	display: inline-block;
+	width:198px;
+	height:20px;
+	margin-right:40px;
+}
+/*工艺*/
+.workArt{
+	margin-top:20px;
+}
+/*第一个选项卡图片部分*/
+/*以一叶之轻牵众生之日*/
+.imgsTea1{
+	width: 970px;
+	height: 550px;
+	margin-top:20px;
+}
+/*武夷山原产*/
+.imgsTea2{
+	width: 970px;
+	height: 399px;
+}
+/*中足火碳焙，复原传统风味*/
+.imgsTea3{
+	width: 970px;
+	height: 401px;
+}
+/*乌润均匀*/
+.imgsTea4{
+	width: 970px;
+	height: 595px;
+}
+/*桂皮香明显*/
+.imgsTea5{
+	width: 970px;
+	height: 504px;
+}
+/*柔软发亮*/
+.imgsTea6{
+	width: 970px;
+	height: 582px;
+}
+/*淡茶会知己*/
+.imgsTea7{
+	width: 970px;
+	height: 469px;
+}
+/*第二个选项卡效果*/
+/*规格与包装*/
+.selectTwo{
+	width: 970px;
+	height:100px;
+	margin: 0 auto;
+	display: none;
+}
+.selectTwo>p{
+	margin-top:20px;
+	margin-left:70px;
+}
+/*第三个选项卡效果*/
+/*商品评价*/
+.selectThree{
+	width: 970px;
+	min-height: 575px;
+	margin: 0px auto;
+	display: none;
+}
+/*96%好评率*/
+.pingJia{
+	width:100%;
+	height:150px;
+}
+/*1.好评率*/
+.goodSay{
+	width:100px;
+	height:150px;
+	float: left;
+	text-align: center;
+}
+.goodSay>p:nth-child(1){
+	font-size:36px;
+	color: #02913A;
+	margin-top:40px;
+}
+.goodSay>p:nth-child(2){
+	font-size:12px;
+	color:#A7A3AF;
+}
+/*2.大家印象*/
+.impressed{
+	width:18px;
+	height:150px;
+	font-size: 16px;
+	color:#A29FA0;
+	float: left;
+	margin-left:20px;
+	text-align: center;
+}
+.impressed>p:nth-child(1){
+	margin-top:10px;
+}
+/*3.评价框*/
+.pingJiaKuang{
+	width:800px;
+	height: 80px;
+	float: left;
+	margin-left:30px;
+	margin-top:35px;
+}
+/*价格便宜*/
+.kuang{
+	width:80px ;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color:#009933 ;
+	float: left;
+	font-size: 12px;
+	margin-right:10px;
+	border:2px solid #009933;
+	position: relative;
+}
+/*点击后，框加的样式*/
+.afterKuang{
+	width: 80px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #009933;
+    float: left;
+    font-size: 12px;
+    margin-right: 10px;
+    border: 2px solid #009933;
+    background: url(../imgs/icon-list.png) no-repeat 2px -71px;
+}
+.afterKuangTwo{
+	margin-top: 16px;
+	width: 80px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #009933;
+    float: left;
+    font-size: 12px;
+    margin-right: 10px;
+    border: 2px solid #009933;
+    background: url(../imgs/icon-list.png) no-repeat 2px -71px;
+}
+/*给第一个框加背景图片✔*/
+.green{
+	width: 14px;
+    height: 11px;
+    position: absolute;
+    top: 17px;
+    left: 67px;
+    display: none;
+    background: url(../imgs/icon-list.png) no-repeat -65px -88px;
+}
+/*.kuangOne{
+	background:url(../imgs/icon-list.png) no-repeat 2px -71px;
+}*/
+/*第九个和第十个框给margin值*/
+.kuangNine,.kuangTen{
+	margin-top:16px;
+}
+/*全部评价*/
+.allSays{
+	width:100%;
+	height:425px;
+	/*border: 1px solid darkmagenta;*/
+}
+/*全部评价导航栏*/
+.allSaysNav>li{
+	/*float: left;*/
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.allSaysNav>li>a{
+	color:#ADA3C2 ;
+}
+/*全部评价li的字体颜色为绿色*/
+.allSaysNav>li:nth-child(1)>a{
+	color:#009937 ;
+}
+/*五绿星评价*/
+.fiveStar-says{
+	width: 100%;
+	height: 170px;
+	margin-top:30px;
+	border-bottom:1px solid #E4E4E4;
+}
+/*五绿星评价左侧用户图标*/
+.fiveStar-says-left{
+	width:60px;
+	height:90px;
+	float: left;
+	margin-left: 10px;
+}
+.fiveStar-says-left>a>img{
+	border-radius: 50%;
+}
+/*五绿星评价右侧用户真实评价*/
+.fiveStar-says-right{
+	width:800px;
+	height:100%;
+	float: right;
+	position: relative;
+}
+/*五星背景图片*/
+.fiveStarImg{
+	position: absolute;
+    width: 80px;
+    height: 16px;
+    top: -22px;
+    left: 0px;
+    background: url(../imgs/icon-list.png) no-repeat -156px -147px;
+}
+/*茶叶不错(第一个评价)*/
+.fiveStar-says-right>p:nth-child(1){
+	margin-top:40px;
+}
+/*评价框按钮*/
+.saysKuang-btn{
+	margin-top:15px;
+}
+.saysKuang-btn>a{
+	width: 70px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    border: 1px solid gray;
+    color:#000 ;
+}
+/*评论时间、图标和人流量*/
+.saysTime{
+	margin-top:15px;
+	font-size:12px;
+}
+.saysTime>span:nth-child(1){
+	margin-left:30px;
+}
+.saysTime>span:nth-child(2){
+	margin-left:120px;
+}
+.saysTime>span:nth-child(3){
+	margin-left:10px;
+}
+/*第四个选项卡效果*/
+.selectFour{
+	width: 970px;
+	min-height: 100px;
+	margin: 0px auto;
+	display: none;
+}
+.selectFour>p{
+	margin-left:70px;
+	margin-top:30px;
+}
+/*饶从谋样式表结束位置*/
+body{
+	background-color: rgb(248,248,248);
+}
+header,nav,.art1,.art2,.art3,.art4{
+	width: 1200px;
+	margin: 0px auto;
+}
+header>img{
+	margin-top: 30px;
+	height: 80px;
+	margin-bottom: 40px;
+}
+header>.pic1{
+	margin-right: 310px;
+}
+header>.pic{
+	
+	padding-right: 30px;
+	padding-left: 30px;
+	border-right: solid silver 2px;
+}
+nav>ul>li{
+	text-align: center;
+	width: 90px;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	list-style: none;
+}
+nav>ul>.li1,nav>ul>.li>button{
+	color: white;
+	background-color: rgb(0,149,59);
+}
+nav>ul>.li{
+	margin-left: 300px;
+	width: 330px;
+	margin-bottom: 35px;
+}
+nav>ul>.li>input{
+	padding-left: 10px;
+	border: solid 1px rgb(0,149,59);
+	display: inline-block;
+	height: 40px;
+	width: 220px;
+	
+}
+nav>ul>.li>button{
+	border: none;
+    width: 80px;
+	display: inline-block;
+	height: 42px;
+}
+nav>ul>li:hover{
+	background-color: rgb(0,149,59);
+}
+nav>ul>.li:hover{
+	background-color: #F8F8F8;
+}
+hr{
+	height: 3px;
+	background-color:  rgb(0,149,59);
+}
+/*第二部分吉*/
+.art2,.art1,.art3,.art4{
+	padding-bottom: 40px;
+	position: relative;
+	margin-top: 40px;
+	background-color: rgb(255,255,255);
+	border-bottom: solid silver 5px;
+}
+.art1>img{
+	width: 220px;
+	margin: 40px 60px;
+}
+.art1>.img1{
+	position: absolute;
+	border: solid silver 7px;
+	top: 40px;
+	right: 10px;
+}
+.art1>.img2{
+	width: 360px;
+	height: 200px;
+	position: absolute;
+	border: solid silver 7px;
+	top: 140px;
+	right: 60px;
+}
+.art1>p{
+	margin-bottom: 20px;
+	margin-left: 60px;
+	width: 500px;
+	line-height: 20px;
+	font-size:13px ;
+	text-indent: 30px;
+}
+.art2{
+	height: 790px;
+}
+.art2>.img1,.art3>.img1{
+	width: 220px;
+	margin-top: 40px;
+	margin-left: 910px;
+}
+.art2>.img2{
+	width: 480px;
+	border: solid silver 7px;
+	margin-left: 40px;
+	margin-top: -100px;
+}
+.art2>.img4{
+	width: 180px;
+	border: solid silver 7px;
+	position: absolute;
+	top: 640px;
+	left: 670px;
+	transform: rotate(-16deg);
+}
+.art2>.img3{
+	width: 380px;
+	border: solid silver 7px;
+	position: absolute;
+	top: 500px;
+	left: 720px;
+	transform: rotate(6deg);
+}
+
+.wenzi>p,.wenzi1>p{
+	line-height: 20px;
+	margin-top: 20px;
+}
+.art3>.wenzi{
+	width: 500px;
+	margin-top:0px;
+	margin-left: 610px;
+	margin-bottom: 0px;
+}
+.art3>.img2{
+	width: 220px;
+	border: solid silver 7px;
+	position: absolute;
+	top: 40px;
+	left: 70px;
+}
+.art3>.img3{
+	width: 260px;
+	border: solid silver 7px;
+	position: absolute;
+	top: 270px;
+	left: 180px;
+}
+.wenzi{
+	margin-top:-290px;
+	margin-left: 620px;
+	line-height: 20px;
+	font-size:14px ;
+	text-indent: 30px;
+	padding: 20px;
+	width: 500px;
+	margin-bottom: 50px;
+}
+.wenzi1{
+	margin-top: 40px;
+	margin-left: 75px;
+	border-left: solid 10px rgb(0,149,59);
+	line-height: 20px;
+	font-size:14px ;
+	text-indent: 30px;
+	padding: 20px 40px;
+	width: 500px;
+}
+.art4>.img1{
+	width: 220px;
+	margin:40px 500px;
+}
+.htu>img{
+	margin-left: 20px;
+}
+.htu{
+	width: 1135px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.art4>p{
+	width: 1130px;
+	text-indent: 30px;
+	font-size: 14px;
+	margin-bottom: 8px;
+	line-height: 25px;
+	padding: 1px 40px;
+	
+}
+footer{
+	margin-top: 40px;
+	padding-top: 30px;
+	height: 100px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+footer>p{
+	height: 25px;
+	line-height: 25px;
+}
+/*第一部分姚*/
+/*内容*/
+.art11,.art22,.art33,.art44{
+	width: 1200px;
+	margin: 0px auto;
+}
+.art00{
+	margin: 0px auto;
+}
+.art11 .left img{
+	display: none;
+}
+.art11 .left .show{
+	display: block;
+}
+.art11 .ul1 .red{
+	background-color: red;
+}
+
+.art11>div{
+	display: inline-block;
+}
+.art11>.left{
+	margin: 40px;
+	width: 740px;
+	overflow: hidden;
+}
+.art11>.left>img{
+	opacity: 0.8;
+}
+.art11>.left>img:hover{
+	transform: skew(20deg);
+}
+.art11>.right{
+	width: 360px;
+	
+}
+.art11>.right>hr{
+	margin-bottom: 15px;
+	height: 3px;
+	background-color:  rgb(0,149,59);
+}
+.art11>.right>p{
+	margin-bottom: 25px;
+	font-size:30px ;
+	color:  rgb(0,149,59);
+	padding-bottom: 20px;
+	border-bottom: dashed 1px silver ;
+}
+
+.art11>.right>ul>li{
+	font-size:16px ;
+	list-style: none;
+	height: 41px;
+	line-height: 30px;
+}
+.art11>.right>ul>li:hover{
+	color: chartreuse;
+}
+.art22,.art11,.art33,.art44{
+	margin-top: 40px;
+	background-color: rgb(255,255,255);
+	border-bottom: solid silver 5px;
+}
+/*2 茶汁人生*/
+.art22 img{
+	width: 620px;
+	
+}
+.art22{
+	position: relative;
+}
+.art22 .bo{
+	width: 50px;
+	height: 50px;
+	border: 1px solid white;
+	border-radius:50% ;
+	position: absolute;
+	top: 370px;
+	left: 500px;
+	overflow: hidden;
+}
+.art22 .bo img{
+	width: 50px;
+	height: 50px;
+}
+.art22 video{
+	/*border: 1px solid red;*/
+	position: absolute;
+	display: none;
+	top: 150px;
+	left: 110px;	
+}
+.art22 .bj{
+	position: absolute;
+	top: 30px;
+	display: none;
+}
+.art22:hover .art22 img{
+	display: none;
+}
+.art22>.p1,.art33>.p1,.art44>.p1{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+.art22>p,.art33>p,.art44>p{
+	text-align: center;
+}
+.art22>img{
+	margin: 25px;
+	width: 1120px;
+}
+/*3 茶汁文化*/
+.art33>.top,.art33>.bon{
+	margin: 20px 40px;
+	width: 1120px;
+	height: 320px;
+	
+}
+.art33 .top span:hover{
+	color: greenyellow;
+}
+.art33 .top li:hover{
+	color: greenyellow;
+}
+
+.art33 span:hover{
+	color: greenyellow;
+}
+
+.top>div,.bon>div{
+	display: inline-block;
+}
+.top1{
+	overflow: hidden;
+}
+.top1>.div1>img{
+	float: left;
+	margin-right: 25px;
+}
+
+.top1>.div1{
+	width: 550px;
+	border: solid silver 1px;
+	margin: 10px;
+	overflow: hidden;
+}
+.top1>.div1>p{
+	padding: 10px;
+	text-indent: 20px;
+	font-size: 13px;
+	height: 25px;
+	line-height: 25px;
+	color: slategray;
+	margin-bottom: 15px;
+}
+.top1>.div1>.p1{
+	margin-bottom: 0px;
+	margin-top: 10px;
+	text-indent: 0px;
+	color: black;
+	font-size: 16px;
+}
+.top1>.div1>span{
+	font-size: 14px;
+	margin-left:260px;
+	color: green;
+}
+.top2{
+	margin-right: 10px;
+	position: relative;
+	top: -19px;
+	border: solid silver 1px;
+}
+.top2>p{
+	margin-top: 10px;
+	text-indent: 0px;
+	margin-left: 15px;
+	font-size: 15px;
+}
+.top2>span{
+	margin-left: 175px;
+	color: green;
+	font-size: 14px;
+}
+.top3{
+	position: relative;
+	top: -15px;
+	border: solid silver 1px;
+	width: 260px;
+}
+.top3>img{
+	margin: 0px 10px;
+}
+.top3>p{
+	color: seagreen;
+	padding: 20px 10px 10px;
+	border-top: solid seagreen 3px;
+}
+.top3>ul>li{
+	padding-left: 10px;
+	list-style: none;
+	height: 35px; 
+	line-height: 35px;
+	font-size: 13px;
+	border-bottom: dashed silver 1px;
+}
+.bon>.top2{
+	margin-top: 20px;
+	margin-left: 4px;
+}
+/*4 茶汁经典*/
+.art44>div{
+	width: 265px;
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 20px;
+}
+.art44{
+	padding-bottom: 30px;
+}
+.art44>div>div>img{
+	
+	width: 265px;
+}
+.art44>.div1{
+	margin-top: 25px;
+	margin-left: 45px;
+}
+.bian{
+	width: 260px;
+	height: 261px;
+	overflow: hidden;
+	position: relative;
+}
+.bian>img:hover{
+	
+	transform: scale(1.5,1.5) rotate(-15deg);
+	
+}
+/*蒙版*/
+
+.div1:hover img{
+   transform: scale(0.8,0.8) rotate(-45deg);
+}
+.bian .mb0{
+	position: absolute;
+	width: 260px;
+	height:50px;
+	line-height: 50px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	top: 246px;
+	background-color:white;					
+	transition: all,1s;
+	
+}
+.bian:hover .mb0{
+	transform: translateY(-35px);
+	background-color: rgba(0,188,0,1);	
+}
+.top3{
+	position: relative;
+	overflow: hidden;
+}
+.top3 .xz{
+	width: 240px;
+	height: 104px;
+	position: absolute;
+	
+    top: 54px;
+    left: -233px;
+    transition: all,3s;
+}
+.top3:hover .xz{
+	transform: translateX(243px) rotate(360deg);
+	background-color: rgba(0,0,500,0.5);	
+}
+.art11{
+	position: relative;
+}
+#ul1{
+	
+	position: absolute;
+	width: 300px;
+	height: 30px;
+	bottom: 80px;
+	text-align: center;
+	left: 200px;
+	line-height: 30px;
+	/*display: none;*/
+}
+#ul1 li{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	
+	border-radius:100% ;
+		
+}
+.art11 .leftbtn{
+	width: 45px;
+	height: 160px;
+	background-image: url(../imgs/arror.png);
+	position: absolute;
+	left: 40px;
+	top: 180px;
+}
+.art11 .leftbtn:hover{
+	background-position: -155px 0px;
+}
+.art11 .rightbtn{
+	width: 45px;
+	height: 160px;
+	background-image: url(../imgs/arror.png);
+	background-position: -50px 0px;
+	position: absolute;
+	left: 735px;
+	top: 180px;
+}
+.art11 .rightbtn:hover{
+	background-position: -105px 0px;
+}
+
+/*第三部分汤*/
+/*外层div   */
+
+.box1{
+	min-height: 2000px;
+	width: 1350px;
+	border: 1px transparent;
+	background-color:  #F8F8F8;
+}
+.ermai{
+	position: relative;
+	height: 180px;
+	margin-top: 20px;
+	background-color: white;
+	border-bottom: 8px solid #C6C6C6;	
+}
+.tu{
+	
+	margin-left: 30px;
+}
+.tu2:hover{
+	margin-left: 10px;
+}
+
+.span1{
+	float: right;
+	vertical-align:top;
+	width: 131px;
+	height: 62px;
+	
+}
+.span2{
+	float: right;
+	margin-top: -37px;
+	margin-right: 71px;
+	display: inline-block;
+	color: #00953B;
+}
+.span3{
+	float: right;
+	margin-top: -11px;
+	margin-right: 54px;
+	background-color: #00953B;
+	color: white;
+	width: 75px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	border-radius: 10%;
+	
+}
+.ermaidiyi{
+	float: left;
+	width: 245px;
+	height: 119px;
+	margin-top: -45px;
+	margin-left: 90px;
+	
+	
+	background-color:  #F8F8F8;
+	
+}
+
+
+
+.box1,.chawenhua,.container{
+	display: none;
+}
+.ermaidier{
+	float: left;
+	width: 245px;
+	height: 119px;
+	margin-top: -45px;
+	margin-left: 90px;
+	
+	background-color:  #F8F8F8;
+}
+.ermaidisan{
+	float: left;
+	width: 245px;
+	height: 119px;
+	margin-top: -45px;
+	margin-left: 90px;
+	
+	background-color:  #F8F8F8;
+}
+
+.ermaidisi{
+	float: left;
+	width: 245px;
+	height: 119px;
+	margin-top: -45px;
+	margin-left: 90px;
+	
+	background-color:  #F8F8F8;
+}
+/*中间第二部分*/
+.pinlei{
+	height: 408px;
+	background-color: white;
+	margin-top: 100px;
+}
+.pinlei>ul>li{
+	display: inline-block;
+}
+.pin1>li{
+	color: #898989;
+}
+.pin2>li{
+	color: #898989;
+}
+.pin3>li{
+	color: #898989;
+}
+.pin4>li{
+	color: #898989;
+}
+.pin1{
+	height: 100px;
+	line-height: 100px;
+	padding-left: 50px;
+	
+}
+.pin1>li{
+	padding-left: 50px;
+}
+.jing{
+	color: #D1D0D0;
+}
+.quanbu{
+	margin-left: 20px;
+	color: #23A05A;
+}
+.pin2{
+	height: 100px;
+	line-height: 100px;
+	padding-left: 50px;
+	
+}
+.pin2>li{
+	padding-left: 60px;
+}
+.pin3{
+	height: 100px;
+	line-height: 100px;
+	padding-left: 50px;
+	
+}
+.pin3>li{
+	padding-left: 60px;
+}
+.pin4{
+	float: right;
+	
+	height: 100px;
+	line-height: 100px;
+	padding-left: 50px;
+	
+}
+.pin4>li{
+	padding-left: 50px;
+}
+.duigou{
+	height: 35px;
+	background-color: #C6C6C6;
+}
+.img1{
+	margin-left: 666px;
+}
+.zhengsan{
+	display: inline-block;
+	margin-top: 20px;
+	width: 210px;
+	height: 368px;
+	margin-left: 100px;
+	position: relative;
+	
+	overflow: hidden;
+	
+}
+.zhengsan:hover .tu1{
+	transform: skew(-5deg);
+	transition: all 1s;
+}
+.zhengsan:hover{
+	
+	box-shadow: 10px 10px 60px 1px;
+}
+.zhengsan:hover .p1{
+	color:green;
+}
+.tu3{
+	position: absolute;
+	width: 210px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background-color: green;
+	color: white;
+	transform: translateY(40px);
+	bottom: -44px;
+	transition: all 1s;
+}
+.zhengsan:hover .tu3{
+	transform: translateY(-40px);
+	
+}
+.tu1{
+	height: 210px;
+}
+.p2{
+	width: 153px;
+	
+	text-align: center;
+	margin-left: 10px;
+	height: 24px;
+	color: #B4B4B4;
+	line-height: 24px;
+	font-size: 12px;
+	overflow:hidden;
+}
+.p3{
+	width: 153px;
+	
+	text-align: center;
+	margin-left: 10px;
+	height: 24px;
+	color: #4BB474;
+}
+.p4{
+	width: 153px;
+	
+	text-align: center;
+	margin-left: 10px;
+	height: 24px;
+	color: #B4B4B4;
+}
+.anniu{
+	height: 100px;
+	width: 1000px;
+	margin-top: 20px;
+	margin-left:175px;
+}
+
+.p6{
+	float: left;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+	margin-top: 25px;
+	text-align: center;
+	border: 1px solid black;
+	
+}
+.p8{
+	float: left;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 25px;
+	font-size: 14px;
+	margin-left: 10px;
+	text-align: center;
+	border: 1px solid black;
+}
+.shuru{
+	float: left;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+	margin-top: 25px;
+	outline:medium;
+	text-align: center;
+	border: 1px solid black;
+	
+}
+.que{
+	float: left;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 25px;
+	font-size: 14px;
+	margin-left: 10px;
+	text-align: center;
+	outline:medium;
+	background-color: white;
+	border: 1px solid black;
+}
+li{list-style: none; }
+.clear{clear: both;}
+.center{width: 1350px; margin: 0 auto;}
